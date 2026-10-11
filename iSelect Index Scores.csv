@@ -1,9 +1,9 @@
-﻿State,Index Score
-New South Wales,5.14
-Victoria,4.29
-Queensland,4.57
-South Australia,5.72
-Western Australia,6.58
-Tasmania,5.43
-Northern Territory,3.43
-Australian Capital Territory,5.14
+State,Index Score,Latitude,Longitude
+New South Wales,5.14,-33.42004148,151.3000048
+Victoria,4.29,-37.73119953,142.0234135
+Queensland,4.57,-26.67998777,153.0500272
+South Australia,5.72,-34.28293455,140.6000378
+Western Australia,6.58,-33.58287392,120.0333345
+Tasmania,5.43,-40.83292234,145.1166613
+Northern Territory,3.43,-13.81617348,131.816698
+Australian Capital Territory,5.14,-35.3546004,149.2113468
