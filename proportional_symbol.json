@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "title": "Index Scores by State and Territory",
+  "projection": {"type": "mercator"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/main/STE_2016_AUST.json",
+        "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/main/iSelect%20Index%20Scores.csv"
+      },
+      "mark": {"type": "circle"},
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
+        "size": {
+          "field": "Index Score",
+          "type": "quantitative",
+          "scale": {"domain": [3, 7], "range": [100, 2500]}
+        },
+        "color": {
+          "field": "Index Score",
+          "type": "quantitative",
+          "title": "Index Score",
+          "scale": {"domain": [3, 7], "scheme": "reds"}
+        },
+        "tooltip": [{"field": "State"}, {"field": "Index Score"}]
+      }
+    }
+  ],
+  "config": {}
+}
