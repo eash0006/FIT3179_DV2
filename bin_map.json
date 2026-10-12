@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 400,
+  "title": "Health Search Interest by State and Territory",
+  "data": {
+    "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Health%20searches.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "shape": "square",
+        "filled": true,
+        "size": 10000,
+        "stroke": "white"
+      },
+      "encoding": {
+        "x": {"field": "X", "type": "ordinal", "axis": null},
+        "y": {"field": "Y", "type": "ordinal", "axis": null},
+        "color": {
+          "field": "Score",
+          "type": "quantitative",
+          "scale": {"scheme": "blues"}
+        },
+        "tooltip": [{"field": "State"}, {"field": "Score"}]
+      }
+    },
+    {
+      "mark": {"type": "text", "fontSize": 8.5, "color": "black"},
+      "encoding": {
+        "x": {"field": "X", "type": "ordinal"},
+        "y": {"field": "Y", "type": "ordinal"},
+        "text": {"field": "State"}
+      }
+    }
+  ],
+  "config": {}
+}
