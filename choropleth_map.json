@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Percentage of People Not Meeting Fruit and Vegetable Consumption Recommendations by State",
+  "width": 800,
+  "height": 400,
+  "projection": {"type": "mercator"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/STE_2016_AUST.json",
+    "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.STE_NAME16",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/fruit%20%26%20veggie%20consumption.csv"
+        },
+        "key": "State",
+        "fields": ["Percentage of state population (%)"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Percentage of state population (%)",
+      "type": "quantitative",
+      "title": "% Not Meeting Recommendations",
+      "scale": {"type": "log"}
+    },
+    "tooltip": [
+      {"field": "properties.STE_NAME16", "title": "State"},
+      {"field": "Percentage of state population (%)", "title": "Percentage (%)"}
+    ]
+  },
+  "config": {}
+}
