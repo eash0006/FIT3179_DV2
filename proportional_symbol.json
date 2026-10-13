@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 600,
   "height": 500,
-  "title": "Index Scores by State and Territory",
+  "title": {"text":"Index Scores by State and Territory","fontSize": 22},
   "projection": {"type": "mercator"},
   "layer": [
     {
