@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text":"Percentage of Australian's Not Meeting Fruit & Vegetable Consumption Recommendations", "fontSize": 24},
+  "title": {"text":["Percentage of Australian's Not Meeting Fruit & Vegetable","Consumption Recommendations"], "fontSize": 22},
   "width": 600,
   "height": 500,
   "projection": {"type": "mercator"},
