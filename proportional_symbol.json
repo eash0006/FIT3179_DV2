@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
+  "width": 700,
   "height": 400,
   "title": "Index Scores by State and Territory",
   "projection": {"type": "mercator"},
@@ -34,6 +34,5 @@
         "tooltip": [{"field": "State"}, {"field": "Index Score"}]
       }
     }
-  ],
-  "config": {}
+  ]
 }
