@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Percentage of People Not Meeting Fruit and Vegetable Consumption Recommendations by State",
-  "width": 800,
+  "width": 700,
   "height": 400,
   "projection": {"type": "mercator"},
   "data": {
@@ -32,6 +32,5 @@
       {"field": "properties.STE_NAME16", "title": "State"},
       {"field": "Percentage of state population (%)", "title": "Percentage (%)"}
     ]
-  },
-  "config": {}
+  }
 }
