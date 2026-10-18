@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Slope%20Graph.csv"
+  },
+  "mark": "line",
+  "width": {"step": 50},
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
+    "y": {"field": "Percentage", "type": "quantitative"},
+    "color": {"field": "Food Group"}
+  },
+  "config": {}
+}
