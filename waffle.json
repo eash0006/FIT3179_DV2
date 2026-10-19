@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "Exceeding Unsaturated Spread and Oil Recommendations",
+  "data": {"sequence": {"start": 1, "stop": 101}},
+  "transform": [
+    {
+      "calculate": "datum.data <= 51 ? 'Yes' : 'No'",
+      "as": "Exceeded Recommendation"
+    },
+    {"calculate": "(datum.data-1)%10", "as": "x"},
+    {"calculate": "floor((datum.data-1)/10)", "as": "y"}
+  ],
+  "mark": {"type": "square", "size": 300},
+  "encoding": {
+    "x": {"field": "x", "axis": null},
+    "y": {"field": "y", "axis": null},
+    "color": {
+      "field": "Exceeded Recommendation",
+      "scale": {"domain": ["Yes", "No"], "range": ["orange", "lightgrey"]}
+    }
+  },
+  "config": {}
+}
