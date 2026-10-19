@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "Exceeded the recommended allowance unsaturated spreads and oils on a usual basis",
+  "hconcat": [
+    {
+      "title": "Females",
+      "data": {
+        "values": [
+          {"category": "Exceeded", "value": 42},
+          {"category": "Did not Exceed", "value": 58}
+        ]
+      },
+      "mark": {"type": "arc", "innerRadius": 75},
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative"},
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Exceeded", "Did not Exceed"],
+            "range": ["steelblue", "lightgrey"]
+          }
+        }
+      }
+    },
+    {
+      "title": "Males",
+      "data": {
+        "values": [
+          {"category": "Exceeded", "value": 60.9},
+          {"category": "Did not Exceed", "value": 39.1}
+        ]
+      },
+      "mark": {"type": "arc", "innerRadius": 75},
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative"},
+        "color": {"field": "category", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {}
+}
