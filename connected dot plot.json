@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Connected%20dot%20plot.csv"
+  },
+  "title": "Proportion of adults aged 18 years and over, by usual consumption of grains and cereals",
+  "layer": [
+    {
+      "mark": {"type": "line", "color": "lightgrey"},
+      "encoding": {
+        "y": {
+          "field": "Daily Consumption",
+          "type": "ordinal",
+          "sort": null,
+          "scale": {"reverse": true}
+        },
+        "x": {"field": "Percentage", "type": "quantitative"},
+        "detail": {"field": "Daily Consumption"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "y": {
+          "field": "Daily Consumption",
+          "type": "ordinal",
+          "sort": null,
+          "scale": {"reverse": true}
+        },
+        "x": {"field": "Percentage", "type": "quantitative"},
+        "color": {"field": "Gender", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {}
+}
