@@ -1,7 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "width": 600,
-  "autosize": {"type": "fit", "contains": "padding"},
   "height": 500,
   "title": {
     "text": "Health Search Interest by State and Territory",
