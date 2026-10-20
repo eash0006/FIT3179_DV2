@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": "Exceeded the recommended allowance unsaturated spreads and oils on a usual basis",
+  "width": 600,
+  "height": 500,
   "hconcat": [
     {
       "title": "Females",
