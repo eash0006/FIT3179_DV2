@@ -1,8 +1,12 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "autosize": {"type": "fit", "contains": "padding"},
   "height": 500,
-  "title": {"text":"Health Search Interest by State and Territory","fontSize": 22},
+  "title": {
+    "text": "Health Search Interest by State and Territory",
+    "fontSize": 22
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Health%20searches.csv"
   },
@@ -12,7 +16,7 @@
         "type": "point",
         "shape": "square",
         "filled": true,
-        "size": 15000,
+        "size": 11500,
         "stroke": "white"
       },
       "encoding": {
