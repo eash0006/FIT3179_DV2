@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": "Exceeding Unsaturated Spread and Oil Recommendations",
+  "width": 600,
+  "height": 500,
   "data": {"sequence": {"start": 1, "stop": 101}},
   "transform": [
     {
