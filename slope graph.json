@@ -3,7 +3,6 @@
   "title":"Percentage of Australian's meeting the Australian Dietary Recommendations",
   "width": 600,
   "height": 500,
-  "autosize": {"type": "fit", "contains": "padding"},
   "data": {
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Slope%20Graph.csv"
   },
@@ -11,7 +10,7 @@
   "encoding": {
     "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
     "y": {"field": "Percentage", "type": "quantitative"},
-    "color": {"field": "Food Group", "legend": {"orient": "bottom", "columns": 2, "labelLimit": 500}}
+    "color": {"field": "Food Group", "legend": {"orient": "bottom", "columns": 3, "labelLimit": 500}}
     
   },
   "config": {}
