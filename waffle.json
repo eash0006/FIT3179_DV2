@@ -12,7 +12,7 @@
     {"calculate": "(datum.data-1)%10", "as": "x"},
     {"calculate": "floor((datum.data-1)/10)", "as": "y"}
   ],
-  "mark": {"type": "square", "size": 300},
+  "mark": {"type": "square", "size": 500},
   "encoding": {
     "x": {"field": "x", "axis": null},
     "y": {"field": "y", "axis": null},
