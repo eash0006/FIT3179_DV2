@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title":"Percentage of Australian's meeting the Australian Dietary Recommendations",
   "width": 600,
   "height": 500,
   "autosize": {"type": "fit", "contains": "padding"},
@@ -10,7 +11,8 @@
   "encoding": {
     "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
     "y": {"field": "Percentage", "type": "quantitative"},
-    "color": {"field": "Food Group"}
+    "color": {"field": "Food Group", "legend": {"orient": "bottom", "columns": 2, "labelLimit": 500}}
+    
   },
   "config": {}
 }
