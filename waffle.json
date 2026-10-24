@@ -25,6 +25,7 @@
   },
   "config": {
   "font": "Avenir",
+  "view": {"stroke": null},
   "title": {"fontSize": 26},
   "axis": {
     "labelFontSize": 16,
@@ -32,7 +33,7 @@
   },
   "legend": {
     "labelFontSize": 16,
-    "titleFontSize": 18
+    "titleFontSize": 18,
   }
 }
 }
