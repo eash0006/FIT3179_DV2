@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "background": "#F8F9FA",
   "width": 600,
   "height": 500,
   "title": {"text":"Index Scores by State and Territory","fontSize": 22},
