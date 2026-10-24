@@ -6,7 +6,7 @@
   "title": "Contribution to Lean Meat & Alternatives Consumption",
   "background": "#F8F9FA",
   "width": 600,
-  "height": 500,
+  "height": 600,
   "mark": "bar",
   "encoding": {
     "x": {
