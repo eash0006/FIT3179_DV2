@@ -1,8 +1,14 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text":["Percentage of Australian's Not Meeting Fruit","& Vegetable Consumption Recommendations"], "fontSize": 22},
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": [
+      "Percentage of Australian's Not Meeting Fruit",
+      "& Vegetable Consumption Recommendations"
+    ],
+    "fontSize": 22
+  },
   "background": "#F8F9FA",
-  "width": 500,
+  "width": 650,
   "height": 500,
   "projection": {"type": "mercator"},
   "data": {
@@ -35,15 +41,9 @@
     ]
   },
   "config": {
-  "font": "Avenir",
-  "title": {"fontSize": 24},
-  "axis": {
-    "labelFontSize": 16,
-    "titleFontSize": 18
-  },
-  "legend": {
-    "labelFontSize": 16,
-    "titleFontSize": 18
+    "font": "Avenir",
+    "title": {"fontSize": 24},
+    "axis": {"labelFontSize": 16, "titleFontSize": 18},
+    "legend": {"labelFontSize": 16, "titleFontSize": 18, "orient":"bottom"}
   }
-}
 }
