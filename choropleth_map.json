@@ -32,8 +32,7 @@
       "field": "Percentage of state population (%)",
       "type": "quantitative",
       "title": "% Not Meeting Recommendations",
-      "scale": {"type": "log"}, 
-      "legend": {"orient": "bottom", "gradientLength": 325, "titleLimit": 325}
+      "scale": {"type": "log"}
     },
     "tooltip": [
       {"field": "properties.STE_NAME16", "title": "State"},
@@ -44,6 +43,7 @@
     "font": "Avenir",
     "title": {"fontSize": 24},
     "axis": {"labelFontSize": 16, "titleFontSize": 18},
-    "legend": {"labelFontSize": 16, "titleFontSize": 18}
+    "legend": {"labelFontSize": 16, "titleFontSize": 18},
+    "view": {"stroke": null}
   }
 }
