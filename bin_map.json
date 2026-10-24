@@ -5,7 +5,6 @@
   "height": 500,
   "title": {
     "text": "Health Search Interest by State and Territory",
-    "fontSize": 22
   },
   "data": {
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Health%20searches.csv"
@@ -41,7 +40,7 @@
   ],
   "config": {
   "font": "Avenir",
-  "title": {"fontSize": 26},
+  "title": {"fontSize": 24},
   "axis": {
     "labelFontSize": 16,
     "titleFontSize": 18
