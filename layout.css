@@ -28,3 +28,7 @@ p {
 .green-intro-block p {
     color: white;
 }
+
+.green-intro-block .page-container {
+    background-color: transparent;
+}
