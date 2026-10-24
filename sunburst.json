@@ -57,11 +57,11 @@
           "innerRadius": {"signal": "datum.depth == 0 ? 110 : datum.r0"},
           "outerRadius": {"field": "r1"},
           "stroke": {"value": "white"},
-          "strokeWidth": {"value": 0.5},
+          "strokeWidth": {"value": 0.5}
         },
         "hover": {
           "stroke": {"value": "black"},
-          "strokeWidth": {"value": 2},
+          "strokeWidth": {"value": 2}
         }
       }
       
