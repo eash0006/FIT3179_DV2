@@ -3,7 +3,7 @@
   "title": {"text": ["Australian's Meeting The Australian Dietary", "Recommendations"]},
   "background": "#F8F9FA",
   "width": 650,
-  "height": 500,
+  "height": 450,
   "data": {
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Slope%20Graph.csv"
   },
