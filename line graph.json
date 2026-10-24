@@ -3,10 +3,10 @@
   "data": {
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Line%20graph.csv"
   },
-  "title": "Australian's over 18 not meeting Fruit & Vegetable Recommendations",
+  "title": {"text": ["Australian's over 18 not meeting Fruit & Vegetable", "Recommendations"]},
   "background": "#F8F9FA",
   "width": 650,
-  "height": 500,
+  "height": 550,
   "mark": "line",
   "encoding": {
     "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
