@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega/v6.json",
   "background": "#F8F9FA",
   "title": "Sources of Water intake",
-  "width": 650,
-  "height": 600,
+  "width": 500,
+  "height": 500,
   "data": [
     {
       "name": "tree",
