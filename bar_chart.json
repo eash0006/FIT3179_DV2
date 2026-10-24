@@ -3,6 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/bar_chart.csv"
   },
+  "background": "#F8F9FA",
   "width": 600,
   "height": 500,
   "mark": "bar",
