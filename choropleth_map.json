@@ -5,7 +5,6 @@
       "Percentage of Australian's Not Meeting Fruit",
       "& Vegetable Consumption Recommendations"
     ],
-    "fontSize": 22
   },
   "background": "#F8F9FA",
   "width": 650,
@@ -33,7 +32,8 @@
       "field": "Percentage of state population (%)",
       "type": "quantitative",
       "title": "% Not Meeting Recommendations",
-      "scale": {"type": "log"}
+      "scale": {"type": "log"}, 
+      "legend": {"orient": "bottom", "gradientLength": 400,"titleLimit": 400}
     },
     "tooltip": [
       {"field": "properties.STE_NAME16", "title": "State"},
@@ -44,6 +44,7 @@
     "font": "Avenir",
     "title": {"fontSize": 24},
     "axis": {"labelFontSize": 16, "titleFontSize": 18},
-    "legend": {"labelFontSize": 16, "titleFontSize": 18, "orient":"bottom"}
+    "legend": {"labelFontSize": 16, "titleFontSize": 18},
+    "view": {"stroke": null}
   }
 }
