@@ -36,7 +36,7 @@ p {
 .page-container h2 {
     display: inline-block;
     position: relative;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h2::after {
