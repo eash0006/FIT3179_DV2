@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/Line%20graph.csv"
   },
-  "title": "Percentage of Australian's over 18 not meeting Fruit & Vegetable Reccomendations",
+  "title": "Australian's over 18 not meeting Fruit & Vegetable Reccomendations",
   "background": "#F8F9FA",
   "width": 600,
   "height": 500,
@@ -14,15 +14,9 @@
     "color": {"field": "Category"}
   },
   "config": {
-  "font": "Avenir",
-  "title": {"fontSize": 26},
-  "axis": {
-    "labelFontSize": 16,
-    "titleFontSize": 18
-  },
-  "legend": {
-    "labelFontSize": 16,
-    "titleFontSize": 18
+    "font": "Avenir",
+    "title": {"fontSize": 22},
+    "axis": {"labelFontSize": 16, "titleFontSize": 18},
+    "legend": {"labelFontSize": 16, "titleFontSize": 18, "orient": "bottom"}
   }
-}
 }
