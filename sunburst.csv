@@ -1,7 +1,7 @@
-id,parent,size
+id,parent,size,colour
 Sources of Water Intake,,
-Plain Water,Sources of Water Intake,63.4
-Other Beverages,Sources of Water Intake,
-Water-based Beverages,Other Beverages,11.2
-"Fruit Juice, Milk & Milk Alternatives",Other Beverages,12.8
-Discretionary Beverages,Other Beverages,12.6
+Plain Water,Sources of Water Intake,63.4,Plain Water
+Other Beverages,Sources of Water Intake,,Other Beverages
+Water-based Beverages,Other Beverages,11.2,Other Beverages
+"Fruit Juice, Milk & Milk Alternatives",Other Beverages,12.8,Other Beverages
+Discretionary Beverages,Other Beverages,12.6,Other Beverages
