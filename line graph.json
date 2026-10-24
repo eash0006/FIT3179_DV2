@@ -9,7 +9,7 @@
   "height": 550,
   "mark": "line",
   "encoding": {
-    "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
+    "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}, "labelLimit": 100},
     "y": {"field": "Percentage (%)", "type": "quantitative"},
     "color": {"field": "Category"}
   },
