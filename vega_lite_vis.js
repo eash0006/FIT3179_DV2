@@ -7,6 +7,8 @@ var vg_6 = "line graph.json";
 var vg_7 = "population pyramid.json";
 var vg_8 = "slope graph.json";
 var vg_9 = "waffle.json";
+var vg_10 = "sunburst.json";
+var vg_11 = "bar_chart.json";
 
 vegaEmbed("#choropleth", vg_1).then(function(result) {
 }).catch(console.error);
@@ -33,4 +35,10 @@ vegaEmbed("#slope_graph", vg_8).then(function(result) {
 }).catch(console.error);
 
 vegaEmbed("#waffle", vg_9).then(function(result) {
+}).catch(console.error);
+
+vegaEmbed("#sunburst", vg_10).then(function(result) {
+}).catch(console.error);
+
+vegaEmbed("#bar_chart", vg_11).then(function(result) {
 }).catch(console.error);
