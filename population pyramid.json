@@ -4,6 +4,7 @@
     "url": "https://raw.githubusercontent.com/eash0006/FIT3179_DV2/refs/heads/main/population%20pyramid.csv"
   },
   "title": "Plain water contribution to total beverage consumption",
+  "background": "#F8F9FA",
   "width": 1200,
   "height": 500,
   "spacing": 0,
