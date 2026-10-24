@@ -59,5 +59,16 @@
       }
     }
   ],
-  "config": {}
+  "config": {
+  "font": "Avenir",
+  "title": {"fontSize": 26},
+  "axis": {
+    "labelFontSize": 16,
+    "titleFontSize": 18
+  },
+  "legend": {
+    "labelFontSize": 16,
+    "titleFontSize": 18
+  }
+}
 }
