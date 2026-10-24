@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "title": "Exceeding Unsaturated Spread and Oil Recommendations",
+  "title": {"text": ["Exceeding Unsaturated Spread and Oil", "Recommendations"]},
   "background": "#F8F9FA",
   "width": 500,
   "height": 500,
@@ -20,7 +20,7 @@
     "color": {
       "field": "Exceeded Recommendation",
       "scale": {"domain": ["Yes", "No"], "range": ["orange", "lightgrey"]},
-       "legend": {"orient": "bottom"}
+       "legend": {"orient": "bottom", "titleLimit": 325}
     }
   },
   "config": {
