@@ -11,13 +11,13 @@ p {
 .page-container {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
     background-color: #F8F9FA;
 }
 
 .green-intro-block {
     background-color: #023020;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .green-intro-block h1 {
