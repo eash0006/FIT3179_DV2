@@ -12,10 +12,18 @@
     "x": {
       "field": "Food Group",
       "type": "nominal",
-      "axis": {"labelAngle": 330}
+      "axis": {"labelAngle": 330, "labelLimit": 500}
     },
-    "y": {"field": "Contribution (%)", "type": "quantitative"}
-  },
+    "y": {"field": "Contribution (%)", "type": "quantitative"},
+    "color": {"field": "Food Group", "type": "nominal",  "legend": null, "scale": {
+    "range": [
+      "#4E79A7",
+      "#F28E2B",
+      "#76B7B2",
+      "#EDC948",
+      "#B07AA1",
+      "#FF9DA7"
+    ]}}},
   "config": {
   "font": "Avenir",
   "title": {"fontSize": 26},
