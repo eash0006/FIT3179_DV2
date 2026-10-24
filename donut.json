@@ -50,7 +50,8 @@
   },
   "legend": {
     "labelFontSize": 16,
-    "titleFontSize": 18
+    "titleFontSize": 18,
+    "view": {"stroke": null}
   }
 }
 }
