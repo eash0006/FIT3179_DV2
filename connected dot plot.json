@@ -31,7 +31,7 @@
           "scale": {"reverse": true}
         },
         "x": {"field": "Percentage", "type": "quantitative"},
-        "color": {"field": "Gender", "type": "nominal"}
+        "color": {"field": "Gender", "type": "nominal", "legend": {"orient": "bottom"}}
       }
     }
   ],
@@ -44,8 +44,7 @@
   },
   "legend": {
     "labelFontSize": 16,
-    "titleFontSize": 18,
-    "orient": "bottom"
+    "titleFontSize": 18
   }
 }
 }
