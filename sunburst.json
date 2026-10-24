@@ -1,10 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
   "background": "#F8F9FA",
-  "width": 600,
+  "title": "Sources of Water intake",
+  "width": 650,
   "height": 600,
-  "padding": 5,
-  "autosize": "none",
   "data": [
     {
       "name": "tree",
@@ -26,10 +25,19 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": {"data": "tree", "field": "depth"},
-      "range": {"scheme": "tableau20"}
+      "domain": ["Plain Water", "Other Beverages"],
+      "range": ["lightblue", "orange"]
     }
   ],
+
+  "legends": [
+  {
+    "fill": "color",
+    "orient": "bottom",
+    "direction": "horizontal"
+  }
+],
+  
   "marks": [
     {
       "type": "arc",
@@ -38,28 +46,46 @@
         "enter": {
           "x": {"signal": "width / 2"},
           "y": {"signal": "height / 2"},
-          "fill": {"scale": "color", "field": "depth"},
+          "fill": {"scale": "color", "field": "colour"},
           "tooltip": {
-            "signal": "datum.id + (datum.size ? ', ' + datum.size : '')"
+            "signal":"datum.size ? datum.id + ': ' + datum.size + '%' : datum.id"
           }
         },
         "update": {
           "startAngle": {"field": "a0"},
           "endAngle": {"field": "a1"},
-          "innerRadius": {"field": "r0"},
+          "innerRadius": {"signal": "datum.depth == 0 ? 110 : datum.r0"},
           "outerRadius": {"field": "r1"},
           "stroke": {"value": "white"},
           "strokeWidth": {"value": 0.5},
-          "zindex": {"value": 0}
         },
         "hover": {
           "stroke": {"value": "black"},
           "strokeWidth": {"value": 2},
-          "zindex": {"value": 1}
         }
       }
+      
+    },
+
+    {
+  "type": "text",
+  "from": {"data": "tree"},
+  "encode": {
+    "enter": {
+      "x": {"signal": "width / 2"},
+      "y": {"signal": "height / 2"},
+      "align": {"value": "center"},
+      "fontSize": {"value": 13}
+    },
+    "update": {
+      "theta": {"signal": "(datum.a0 + datum.a1) / 2"},
+      "radius": {"signal": "(datum.r0 + datum.r1) / 2"},
+      "text": {"signal": "datum.depth > 0 ? datum.id + (datum.size ? ' ' + datum.size + '%' : '') : ''"}
     }
+  }
+}
   ],
+
   "config": {
   "font": "Avenir",
   "title": {"fontSize": 26},
