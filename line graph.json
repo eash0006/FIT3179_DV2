@@ -6,7 +6,7 @@
   "title": {"text": ["Australian's over 18 not meeting Fruit & Vegetable", "Recommendations"]},
   "background": "#F8F9FA",
   "width": 650,
-  "height": 550,
+  "height": 500,
   "mark": "line",
   "encoding": {
     "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}, "labelLimit": 100},
