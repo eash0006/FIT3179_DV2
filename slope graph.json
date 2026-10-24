@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "title": "Percentage of Australian's Meeting Australian Dietary Recommendations",
+  "title": "Australian's Meeting The Australian Dietary Recommendations",
   "background": "#F8F9FA",
   "width": 750,
   "height": 500,
@@ -10,7 +10,7 @@
   "mark": "line",
   "encoding": {
     "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}, "scale": {"padding": 0.05}},
-    "y": {"field": "Percentage", "type": "quantitative"},
+    "y": {"field": "Percentage", "type": "quantitative", "title":"Percentage (%)"},
     "color": {
       "field": "Food Group",
       "legend": {"orient": "bottom", "columns": 3, "labelLimit": 750}
