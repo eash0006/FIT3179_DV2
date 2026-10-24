@@ -18,7 +18,7 @@
   },
   "config": {
   "font": "Avenir",
-  "title": {"fontSize": 22},
+  "title": {"fontSize": 24},
   "axis": {
     "labelFontSize": 16,
     "titleFontSize": 18
