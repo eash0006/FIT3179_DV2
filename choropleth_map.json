@@ -32,7 +32,8 @@
       "field": "Percentage of state population (%)",
       "type": "quantitative",
       "title": "% Not Meeting Recommendations",
-      "scale": {"type": "log"}
+      "scale": {"type": "log"},
+      "legend": {"orient": "bottom", "gradientLength": 325, "titleLimit": 325}
     },
     "tooltip": [
       {"field": "properties.STE_NAME16", "title": "State"},
