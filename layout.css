@@ -11,6 +11,20 @@ p {
 .page-container {
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 10px;
-    background-color: #F7FCF5;
+    padding: 0 20px;
+    background-color: #F8F9FA;
+}
+
+.green-intro-block {
+    background-color: #023020;
+    padding: 20px 0;
+}
+
+.green-intro-block h1 {
+    color: white;
+    font-size: 30;
+}
+
+.green-intro-block p {
+    color: white;
 }
