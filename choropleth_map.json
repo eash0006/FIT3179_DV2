@@ -33,10 +33,10 @@
       {"field": "properties.STE_NAME16", "title": "State"},
       {"field": "Percentage of state population (%)", "title": "Percentage (%)"}
     ]
-  }
-    "config": {
+  },
+  "config": {
   "font": "Avenir",
-  "title": {"fontSize": 26},
+  "title": {"fontSize": 24},
   "axis": {
     "labelFontSize": 16,
     "titleFontSize": 18
