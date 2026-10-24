@@ -8,7 +8,7 @@
   "height": 500,
   "hconcat": [
     {
-      "width": 570,
+      "width": 550,
       "height": 500,
       "transform": [
         {"filter": {"field": "Gender", "equal": "Female"}},
@@ -48,7 +48,7 @@
       }
     },
     {
-      "width": 570,
+      "width": 550,
       "height": 500,
       "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
       "title": "Male",
