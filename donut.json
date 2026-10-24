@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "title": {"text":["Exceeded the Recommended Allowance for Unsaturated", "Spreads & Oils"]},
+  "title": {"text":["Exceeded the Recommended Allowance for", "Unsaturated Spreads & Oils"]},
   "background": "#F8F9FA",
   "width": 600,
   "height": 500,
