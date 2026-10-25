@@ -7,7 +7,7 @@
     ]
   },
   "background": "#F8F9FA",
-  "width": 640,
+  "width": 550,
   "height": 550,
   "projection": {"type": "mercator"},
   "data": {
