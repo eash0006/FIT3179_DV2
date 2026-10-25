@@ -53,3 +53,11 @@ h2::after {
     height: 4px;
     background-color: #023020;
 }
+
+.references {
+    font-size: 12px;
+    width: 550px;
+    margin-top: 0;
+    word-spacing: 1.0px;
+    letter-spacing: 1.0px;
+}
