@@ -30,7 +30,8 @@
           "field": "Index Score",
           "type": "quantitative",
           "title": "Index Score",
-          "scale": {"domain": [3, 7], "scheme": "reds"}
+          "scale": {"domain": [3, 7], "scheme": "reds"},
+          "legend": {"orient": "bottom", "direction": "horizontal"}
         },
         "tooltip": [{"field": "State"}, {"field": "Index Score"}]
       }
@@ -45,8 +46,8 @@
   },
   "legend": {
     "labelFontSize": 16,
-    "titleFontSize": 18,
-    "view": {"stroke": null}
-  }
+    "titleFontSize": 18
+  },
+  "view": {"stroke": null}
 }
 }
