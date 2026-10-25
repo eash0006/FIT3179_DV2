@@ -23,7 +23,7 @@
             "domain": ["Exceeded", "Did not Exceed"],
             "range": ["steelblue", "lightgrey"]
           },
-          "legend": {"orient": "bottom"},
+          "legend": {"orient": "bottom"}
         }
       }
     },
