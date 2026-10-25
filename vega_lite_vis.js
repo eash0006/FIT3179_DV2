@@ -1,6 +1,6 @@
 var vg_1 = "choropleth_map.json";
 var vg_2 = "proportional_symbol.json";
-var vg_3 = "bin_map.json";
+var vg_3 = "grid_cartogram.json";
 var vg_4 = "connected dot plot.json";
 var vg_5 = "donut.json";
 var vg_6 = "line graph.json";
@@ -16,7 +16,7 @@ vegaEmbed("#choropleth", vg_1).then(function(result) {
 vegaEmbed("#proportional_symbol", vg_2).then(function(result) {
 }).catch(console.error);
 
-vegaEmbed("#binmap", vg_3).then(function(result) {
+vegaEmbed("#grid_cartogram", vg_3).then(function(result) {
 }).catch(console.error);
 
 vegaEmbed("#connected_dot_plot", vg_4).then(function(result) {
