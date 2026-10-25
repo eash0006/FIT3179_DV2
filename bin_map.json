@@ -23,7 +23,8 @@
         "color": {
           "field": "Score",
           "type": "quantitative",
-          "scale": {"scheme": "blues"}
+          "scale": {"scheme": "blues"},
+          "legend": {"orient": "bottom"}
         },
         "tooltip": [{"field": "State"}, {"field": "Score"}]
       }
