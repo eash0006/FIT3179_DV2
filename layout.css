@@ -4,9 +4,10 @@
 }
 
 p {
-    font-size: 21px;
+    font-size: 20px;
     width: 550px;
     margin-top: 0;
+    word-spacing: 2px;
     letter-spacing: 2.5px;
 }
 
@@ -24,7 +25,7 @@ p {
 
 .green-intro-block h1 {
     color: white;
-    width: 550px;
+    width: 580px;
     font-size: 30px;
 }
 
