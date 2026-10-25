@@ -25,7 +25,7 @@ p {
 .green-intro-block h1 {
     color: white;
     width: 550px;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .green-intro-block p {
@@ -39,8 +39,8 @@ p {
 .page-container h2 {
     display: inline-block;
     position: relative;
-    font-size: 30px;
-    margin-bottom: 5px;
+    font-size: 28px;
+    margin-bottom: 2px;
 }
 
 h2::after {
