@@ -19,11 +19,12 @@ p {
 
 .green-intro-block {
     background-color: #023020;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 .green-intro-block h1 {
     color: white;
+    width: 550px;
     font-size: 35px;
 }
 
