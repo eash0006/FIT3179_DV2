@@ -3,7 +3,7 @@
   "title": {"text": ["Exceeding Unsaturated Spread and Oil", "Recommendations"]},
   "background": "#F8F9FA",
   "width": 550,
-  "height": 500,
+  "height": 450,
   "data": {"sequence": {"start": 1, "stop": 101}},
   "transform": [
     {
@@ -13,7 +13,7 @@
     {"calculate": "(datum.data-1)%10", "as": "x"},
     {"calculate": "floor((datum.data-1)/10)", "as": "y"}
   ],
-  "mark": {"type": "square", "size": 500},
+  "mark": {"type": "square", "size": 550},
   "encoding": {
     "x": {"field": "x", "axis": null},
     "y": {"field": "y", "axis": null},
