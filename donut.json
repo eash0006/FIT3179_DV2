@@ -21,9 +21,9 @@
           "type": "nominal",
           "scale": {
             "domain": ["Exceeded", "Did not Exceed"],
-            "range": ["steelblue", "lightgrey"],
-            "legend": {"orient": "bottom"}
-          }
+            "range": ["steelblue", "lightgrey"]
+          },
+          "legend": {"orient": "bottom"},
         }
       }
     },
