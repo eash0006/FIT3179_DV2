@@ -5,11 +5,10 @@
   },
   "title": "Plain water contribution to total beverage consumption",
   "background": "#F8F9FA",
-  "height": 500,
   "hconcat": [
     {
       "width": 525,
-      "height": 500,
+      "height": 300,
       "transform": [
         {"filter": {"field": "Gender", "equal": "Female"}},
         {"calculate": "-datum.Percentage", "as": "Percentage"}
@@ -34,7 +33,7 @@
     },
     {
       "width": 50,
-      "height": 500,
+      "height": 300,
       "mark": {"type": "text", "align": "center"},
       "encoding": {
         "y": {
@@ -49,7 +48,7 @@
     },
     {
       "width": 525,
-      "height": 500,
+      "height": 300,
       "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
       "title": "Male",
       "mark": "bar",
