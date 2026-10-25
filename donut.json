@@ -22,8 +22,7 @@
           "scale": {
             "domain": ["Exceeded", "Did not Exceed"],
             "range": ["steelblue", "lightgrey"]
-          },
-          "legend": {"orient": "bottom"}
+          }
         }
       }
     },
@@ -51,7 +50,8 @@
   },
   "legend": {
     "labelFontSize": 16,
-    "titleFontSize": 18
+    "titleFontSize": 18,
+    "legend": {"orient": "bottom"}
   },
   "view": {"stroke": null}
 }
