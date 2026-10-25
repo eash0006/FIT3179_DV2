@@ -30,7 +30,7 @@
       }
     },
     {
-      "mark": {"type": "text", "fontSize": 9.5, "color": "black", "fontWeight": "bold",},
+      "mark": {"type": "text", "fontSize": 9.5, "color": "black", "fontWeight": "bold"},
       "encoding": {
         "x": {"field": "X", "type": "ordinal"},
         "y": {"field": "Y", "type": "ordinal"},
